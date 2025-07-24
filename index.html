@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Campagna referendaria PRC Piemonte
+title: Raccolta firme PRC Piemonte
 permalink: /
 ---
 
@@ -13,7 +13,7 @@ permalink: /
           <div class="card-body mx-2 my-2">
             <h3 class="text-purple text-center fw-bold">Scegli la provincia</h3>
             <select x-data="province()" class="form-select form-select-lg mb-3 mt-3" x-model="filterProvincia"
-              x-change="console.log('culo')" aria-label=".form-select-lg example">
+              aria-label=".form-select-lg example">
               <template x-for="provincia in province">
                 <option x-text="provincia"></option>
               </template>
